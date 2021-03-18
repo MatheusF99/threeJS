@@ -21,7 +21,6 @@ const scene = new THREE.Scene()
 const geometry = new THREE.SphereBufferGeometry(.5, 64, 64)
 
 // Materials
-
 const material = new THREE.MeshStandardMaterial({ map: texture })
 material.metalness = .7
 material.roughness = 0.2
