@@ -9,6 +9,7 @@ const texture = new THREE.TextureLoader().load('/textures/NormalMap.png')
 
 // Debug
 const gui = new dat.GUI()
+dat.GUI.toggleHide();
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
